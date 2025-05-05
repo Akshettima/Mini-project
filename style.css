@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background: yellow;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+}
+.input{
+    width: 100%;
+    font-size: 4;
+    text-align: end;
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    word-break: break-all;
+
+}
+
+button{
+    background: whitesmoke;
+    font-size: 1.5rcm;
+    border: none;
+    border-radius: 70%;
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+}
+button:active,
+button:focus
+{
+    filter: brightness(110%);
+
+}
+.zerokey{
+    grid-column: grid;
+    border-radius: 30px;
+    grid-column: span;
+}
+.functions{
+    background: rgb(122, 122, 230);
+
+}
